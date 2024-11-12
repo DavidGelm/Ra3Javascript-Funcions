@@ -1,4 +1,4 @@
-function nom_cognoms(nom,cognom){
-    console.log(nom+cognom)
+function mostrar(valor) {
+    console.log(typeof(valor))
 }
-nom_cognoms("David"," Gelmà Corral")
+mostrar(3)

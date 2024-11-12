@@ -1,4 +1,4 @@
-function mostraDataActual() {
-    console.log(new Date());
+function variable_local(){
+    var variable = "patata"
 }
-mostraDataActual();
+console.log(variable)

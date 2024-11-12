@@ -1,12 +1,4 @@
-function Vocals(text) {
-    let contador = 0;
-    const vocals = "aeiouàèéíòóúüAEIOUÀÈÉÍÒÓÚÜ";
-   for(let i=0;i<text.length;i++){
-       if(vocals.includes(text[i])){
-           contador++
-       }
-   }
-   return  "Vocals: " + contador
+function enters_suma(num1,num2,num3 = 5){
+    return num1+num2+num3
 }
-
-console.log(Vocals("Patata"));
+console.log(enters_suma(9,2))

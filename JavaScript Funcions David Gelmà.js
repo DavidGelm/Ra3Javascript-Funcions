@@ -1,4 +1,4 @@
-function mostrar(valor) {
-    console.log(typeof(valor))
+function mostraDataActual() {
+    console.log(new Date());
 }
-mostrar(3)
+mostraDataActual();

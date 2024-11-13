@@ -1,2 +1,2 @@
-const arrel_quadrada = (valor) => parseFloat(Math.sqrt(valor).toFixed(2))
-console.log(arrel_quadrada(10))
+const arrel_quadrada = (String) => String.toLocaleLowerCase()
+console.log(arrel_quadrada("PaTata"))
